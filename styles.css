@@ -1,0 +1,40 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #d0d0d0;
+    --secondary: #fff;
+    --accent: #000; 
+    --font-display: 'Playfair Display', serif;
+    --font-body: "Poppins", serif;
+}
+
+
+body {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: var(--font-body) !important;
+}
+
+
+
+/* GLOBALS
+----------------------- */
+h1,h2, p {
+    color: var(--accent)
+}
+
+
+/* UTILITIES
+----------------------- */
+.text-center {
+    text-align: center;
+}
+
+.mb-y-md {
+margin-top: 3rem;
+margin-bottom: 3rem
+}
